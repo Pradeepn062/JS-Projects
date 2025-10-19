@@ -1,0 +1,38 @@
+#cntNumber{
+    font-size: 8rem;
+    text-align: center;
+    font-family: monospace;
+    color: blueviolet;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.btns{
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(28, 217, 224);
+    cursor: pointer;
+}
+
+#decrement:hover{
+    background-color: rgb(255, 9, 9);
+    color: black;
+}
+
+#reset:hover{
+    background-color: rgb(9, 25, 255);
+    color: black;
+}
+
+#increment:hover{
+    background-color: rgb(9, 255, 103);
+    color: black;
+}
